@@ -168,6 +168,11 @@ body.style.backgroundSize = `10% 50%`;
           break;
 
           case "hint":
+          case "hint 1":
+          case "hint1":
+          case "hint another":
+          case "more hints":
+          case "new hint":
             clearInput();
             addTextToResults("hint + current question - e.g. 'hint where is the milk hidden'");
             break;
