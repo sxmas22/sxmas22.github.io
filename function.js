@@ -197,7 +197,16 @@ body.style.backgroundSize = `10% 50%`;
         case "ace":
         case "es":
           clearInput();
-          addTextToResults("An European or African swallow?");
+          addTextToResults("A European or African swallow?");
+          break;
+        
+        case "xmas":
+        case "christmas":
+        case "jul":
+        case "juleaften":
+        case "juletræ":
+          clearInput();
+          addTextToResults("Ja, det er jul, det er cool");
           break;
               
         case "monty python":
@@ -263,7 +272,7 @@ body.style.backgroundSize = `10% 50%`;
           case "wind":
           case "vind":
               clearInput();
-              addTextToResults("TILLYKKE!! - du har vundet et 200 kroner gift card! - skriv til mig for at modtage det") 
+              addTextToResults("TILLYKKE!! - du har vundet et 200 kroner gift card til Steam! - skriv til mig for at modtage det") 
               break;
         
    
